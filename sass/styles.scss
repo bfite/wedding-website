@@ -293,22 +293,23 @@ Hero
 }
 .fixed {
   position: fixed;
-  background-color: rgba(27, 150, 207, 0.88);
+  background-color:#dab4cf;
   z-index: 999;
   width: 100%;
 }
 header {
   padding: 50px 0;
-  border-bottom: solid 1px rgba(27, 150, 207, 0.88);
+  border-bottom: solid 1px #dab4cf;
   position: relative;
   width: 1170px;
   margin: 0 auto;
   transition: padding 300ms ease-in-out;
 
   a {
-    color: $txt-light;
+    color: $txt-primary;
     text-transform: uppercase;
     font-size: $nav-font-size;
+    font-weight: bold;
 
     &.login {
       margin-right: 20px;
@@ -328,7 +329,7 @@ header {
       display: inline;
 
       a {
-        color: $txt-light;
+        color: $txt-primary;
         padding-right: 25px;
 
         &:hover {
